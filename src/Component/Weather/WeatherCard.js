@@ -3,10 +3,9 @@ import './style.css'
 
 const WeatherCard = ({tempInfo}) => {
 	const [weatherState, setWeatheState] = React.useState("");
-	const {temp, humidity, pressure, weatherMood, speed, country, sunset, name} = tempInfo;
+	const {temp, humidity, pressure, weatherMood, speed, country,name} = tempInfo;
 
 	//converting seconds into time
-	let sec = sunset;
 	let date = new Date();
 	let timeStr = `${date.getHours()}:${date.getMinutes()}`
 	let ampm = (timeStr >= `12:00`) ? "PM" : "AM"

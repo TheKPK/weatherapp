@@ -1,4 +1,0 @@
-api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
-
-api key= kpkweather
-apikey=ae070ec83e2b921a23489ef9ce2faefe

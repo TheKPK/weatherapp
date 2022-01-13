@@ -2,7 +2,6 @@ import React, {useEffect, useState} from 'react';
 import './style.css'
 import WeatherCard from "./WeatherCard";
 
-let kpkweather = "ae070ec83e2b921a23489ef9ce2faefe";
 const Temp = () => {
 	const [searchValue, setSearchValue] = useState('hyderabad');
 	const [tempInfo, setTempInfo] = useState({})
